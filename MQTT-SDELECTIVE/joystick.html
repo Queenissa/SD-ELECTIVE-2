@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<style>
+#joyDiv{
+    width: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    height: 200px;
+}
+
+#joystick{
+    width: 200px;
+    height: 200px;
+}
+</style>
+<body>
+
+<center>
+    
+        <div class="col-sm-12">
+            <h1>Joy Stick</h1>
+        </div>
+        <h4 id='status-header'>Connecting to broker...</h4>
+        
+       
+      
+            <div id="joyDiv">
+               
+                
+
+
+
+              
+            </div>
+       
+       
+        <h6>Direction:</h6>
+        <input type="text" id="direction">
+  
+</center>
+
+
+
+<script src="./browserMqtt.js"></script>
+<script src="joy.js"></script>
+<script src="joystick.js"></script>
+
+
+
+    
+</body>
+</html>
